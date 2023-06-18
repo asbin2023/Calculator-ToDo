@@ -19,6 +19,8 @@ let dot = document.querySelector(".dot");
 let clear = document.querySelector(".clear");
 let equal = document.querySelector(".equal");
 let input = document.querySelector(".input");
+let left = document.querySelector(".left")
+let right = document.querySelector('.right')
 
 function testing(...item) {
   for (let i = 0; i < item.length; i++) {
@@ -49,8 +51,13 @@ testing(
   zero,
   dot,
   clear,
-  equal
+  left,
+  right
 );
+
+equal.addEventListener("click", function () {
+  input.innerHTML = eval(input.innerHTML);
+});
 
 clear.addEventListener("click", function () {
   input.innerHTML = "";

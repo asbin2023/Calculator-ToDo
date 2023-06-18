@@ -13,7 +13,7 @@ body {
     "four five six multiply"
     "one two three minus"
     "zero dot equal add"
-    "clear clear clear clear";
+    "left right clear clear";
   column-gap: 20px;
   row-gap: 20px;
 }
@@ -86,4 +86,12 @@ body {
   grid-area: input;
   width: 100%;
   justify-self: flex-end;
+}
+
+.left{
+  grid-area: left;
+}
+
+.right{
+  grid-area: right;
 }
