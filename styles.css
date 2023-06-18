@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  margin-top: 15%;
+  /* border: 2px solid violet; */
+  grid-template-areas:
+    "input input input input"
+    "seven eight nine divide"
+    "four five six multiply"
+    "one two three minus"
+    "zero dot equal add"
+    "clear clear clear clear";
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.child {
+  width: 100px;
+  height: 100px;
+  border: 1px solid coral;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seven {
+  grid-area: seven;
+}
+
+.eight {
+  grid-area: eight;
+}
+.nine {
+  grid-area: nine;
+}
+.divide {
+  grid-area: divide;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+.multiply {
+  grid-area: multiply;
+}
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.minus {
+  grid-area: minus;
+}
+.zero {
+  grid-area: zero;
+}
+.dot {
+  grid-area: dot;
+}
+.clear {
+  grid-area: clear;
+  width: 100%;
+}
+.add {
+  grid-area: add;
+}
+
+.equal {
+  grid-area: equal;
+}
+
+.input{
+  grid-area: input;
+  width: 100%;
+  justify-self: flex-end;
+}
