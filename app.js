@@ -32,10 +32,6 @@ function testing(...item) {
   }
 }
 
-clear.addEventListener("click", function () {
-  input.innerHTML = "";
-});
-
 testing(
   seven,
   eight,
@@ -55,3 +51,7 @@ testing(
   clear,
   equal
 );
+
+clear.addEventListener("click", function () {
+  input.innerHTML = "";
+});
