@@ -1,3 +1,4 @@
+const body = document.querySelector("body");
 const childClasses = document.querySelector(".child");
 const seven = document.querySelector(".seven");
 const eight = document.querySelector(".eight");
@@ -19,12 +20,17 @@ const equal = document.querySelector(".equal");
 const input = document.querySelector(".input");
 const left = document.querySelector(".left");
 const right = document.querySelector(".right");
+const home = document.createElement("p");
+home.innerHTML = "<a href='home.html'> You've summoned the Devil</a>";
 
 function testing(...item) {
   for (let i = 0; i < item.length; i++) {
     item[i].addEventListener("click", function () {
       if (input.innerHTML === "Clear") {
         input.innerHTML = "";
+      }
+      if (input.innerHTML === "---666") {
+        input.innerHTML = home.innerHTML;
       }
       input.innerHTML += item[i].innerHTML;
       console.log("ok");
