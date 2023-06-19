@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  font-family: "Optima";
+}
+
+body {
+  margin-top: 15%;
+  margin-bottom: 20%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(210, 207, 207, 0.254),
+      rgba(97, 93, 93, 0.18)
+    ),
+    url("./images/liquid.jpeg");
+}
+
+form {
+  height: 15vh;
+  width: 50%;
+  text-align: center;
+  background-color: beige;
+  padding: 10px;
+  border: 5px rgb(249, 223, 52) solid;
+}
+
+#item {
+  width: 80%;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.447);
+  border: 5px rgb(249, 223, 52) solid;
+  font-size: 23px;
+}
+
+#submit {
+  width: 19%;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.447);
+
+  font-size: 23px;
+  border: 5px rgb(249, 223, 52) solid;
+}
+
+ul {
+  width: 50%;
+  height: 50vh;
+  background-color: beige;
+  border: 5px rgb(249, 223, 52) solid;
+}
+
+#reset {
+  width: 140px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.447);
+
+  font-size: 23px;
+  padding: 10px;
+  margin-top: 10px;
+  border: 5px rgb(249, 223, 52) solid;
+}
+
+.container {
+  margin-left: 30%;
+}
