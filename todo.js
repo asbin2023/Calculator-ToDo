@@ -5,7 +5,7 @@ let reset = document.querySelector("#reset");
 let ul = document.querySelector("ul");
 let body = document.querySelector("body");
 const home = document.createElement("p");
-home.innerHTML = "<a href='home.html'> You've summoned the Devil</a>";
+home.innerHTML = "<a href='index.html'> You've summoned the Devil</a>";
 
 if (!localStorage.getItem("ul")) {
   console.log("hi");
