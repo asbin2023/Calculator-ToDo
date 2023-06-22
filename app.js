@@ -21,7 +21,7 @@ const input = document.querySelector(".input");
 const left = document.querySelector(".left");
 const right = document.querySelector(".right");
 const home = document.createElement("p");
-home.innerHTML = "<a href='home.html'> You've summoned the Devil</a>";
+home.innerHTML = "<a href='index.html'> You've summoned the Devil</a>";
 
 function testing(...item) {
   for (let i = 0; i < item.length; i++) {
